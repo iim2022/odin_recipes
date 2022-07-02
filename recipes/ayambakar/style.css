@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: pink;
+    font-family: 'Roboto', Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+    background-color: red;
+    text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;
+    padding: 10px;
+    text-align: center;
+}
+
+.img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+img {    
+    width: 400px;    
+}
+
+.wrap {
+    display: flex;
+    justify-content: center;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    width: 650px;    
+}
+
+li {
+    list-style: none;
+}
